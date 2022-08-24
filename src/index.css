@@ -22,8 +22,7 @@
 }
 
 .container {
-  height: 800px;
-  width: 800px;
+  height: 80%;
   display: flex;
   align-items: center;
 }
@@ -35,10 +34,8 @@
 
 #front-card {
   left: 50%;
-  top: 28%;
 }
 
 #back-card {
   left: 65%;
-  bottom: 28%;
 }
