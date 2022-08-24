@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.color-bar {
+  background-image: url('/src/images/bg-main-desktop.png');
+  display:inline-flex;
+  height: 100vh;
+  width: 25%;
+  padding: 0;
+  color: white;
+  background-position: 30% 45%;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  height: 800px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  height: 200px;
+  position: absolute;
+}
+
+#front-card {
+  left: 50%;
+  top: 28%;
+}
+
+#back-card {
+  left: 65%;
+  bottom: 28%;
+}
