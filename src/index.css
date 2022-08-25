@@ -1,14 +1,18 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: sans-serif;  
+}
+
+html {
+  background-color: rgb(234, 231, 238);
 }
 
 .color-bar {
   background-image: url('/src/images/bg-main-desktop.png');
-  display:inline-flex;
+  display:flex;
   height: 100vh;
-  width: 25%;
+  width: 30%;
   padding: 0;
   color: white;
   background-position: 30% 45%;
@@ -18,24 +22,30 @@
   background-size: cover;
   -o-background-size: cover;
   align-items: center;
-  position: relative;
+  text-align: center;
 }
 
 .container {
-  height: 80%;
-  display: flex;
-  align-items: center;
+  height: 50%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .card {
-  height: 200px;
+  height: 210px;
   position: absolute;
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
 }
 
 #front-card {
-  left: 50%;
+  left: 75%;
+  position: relative;
 }
 
 #back-card {
-  left: 65%;
+  left: 100%;
+  position: relative;
 }
+
