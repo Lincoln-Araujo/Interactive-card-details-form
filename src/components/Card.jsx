@@ -14,22 +14,21 @@ export default props =>  {
                     >
 
                     <div className="flag">
-                        <div className="flag-image"></div>    
+                        <div className="flag-image1"></div> 
+                        <div className="flag-image2"></div>   
                     </div> 
 
                     <div className="card-number">
-                        <span className="text">5448 84378 8434 9434</span>
+                        <span className="text">0000 0000 0000 0000</span>
                     </div>   
 
                     <div className="card-info">
                         <div className="card-info-name">
-                            <span className="title">Name</span>
                             <span className="text small">Lincoln Araujo</span>
                         </div>
 
                         <div className="card-info-date">
-                            <span className="title">Validate</span>
-                            <span className="text small">07/21</span>
+                            <span className="text small">00/00</span>
                         </div>
                     </div>
                 </div>
@@ -38,6 +37,10 @@ export default props =>  {
                     className="card" 
                     id="back-card" 
                     alt="back-card">
+
+                    <div className="security-number">
+                        <span className="text small">000</span>
+                    </div>
 
                 </div>    
 
