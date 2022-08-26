@@ -6,7 +6,7 @@
 
 To make this possible, one of the solutions is make this form interactive. When the user type something, this info will appear automatically on the Screen.
 
-[./src/images/demonstration.gif](https://lincoln-araujo.github.io/Interactive-card-details-form/)
+<img src="./src/images/demonstration.gif" href="https://lincoln-araujo.github.io/Interactive-card-details-form/" target="_blank">
 
 ## How to deploy this project:
 
