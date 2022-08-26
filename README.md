@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Interactive Card Details Form
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<strong>DESCRIPTION<strong> This project is a simple form for credit cards information that show to the user where every info of their card is. 
 
-In the project directory, you can run:
+To make this possible, one of the solutions is make this form interactive. When the user type something, this info will appear automatically on the Screen.
+
+[demonstration](./src/images/demonstration.gif)
+
+## How to deploy this project:
+
+First, copy this project to your computer. Then, open this project in your VSCode and start a new terminal. In this terminal, type <strong>npm install</strong> to install all the dependencies from node_modules.
+
+When your computer finishes to download all the node dependencies, type:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## What technologies did I use to build this project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Semantic HTML5 markup
 
-### `npm test`
+- CSS custom properties
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Flexbox
 
-### `npm run build`
+- React - Js Library
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- useState - React
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Javascript
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## WHat I learned
 
-### `npm run eject`
+- build a interactive form section;
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- improve skills of centering elements;
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- make a simple way to change value of html elements using useState from React
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## What is missing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- implement screen responsiveness, mainly for mobile screens;
 
-## Learn More
+- implement warning and success messages and alert colors;
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- add action to the button after being clicked;
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- improve date type in 'EXP. DATE (MM/YY)';
 
-### Code Splitting
+- build a code to prevent wrong inputs in the card number and cvc sections;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Final Remarks
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was a solution to  for a challenge on [Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw/hub/interactive-card-details-form-GNCfbn-zTC) 
