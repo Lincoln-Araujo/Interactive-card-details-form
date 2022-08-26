@@ -3,9 +3,9 @@ import './Card.css';
 
 export default props =>  {
     return (
-        <div className="container">
 
-            
+        <>
+            <div className="container">             
 
                 <div 
                     className="card" 
@@ -44,7 +44,43 @@ export default props =>  {
 
                 </div>    
 
-            
-        </div>
+            </div>
+
+            <div className="form">
+                <div className="form-content">
+                    
+                    <div className="form-control">
+                        <h3 className="title">cardholder name</h3>
+                        <input type="text" placeholder="e.g. Lincoln Araujo" />
+                    </div>
+
+                    
+                    <div className="form-control">
+                        <h3 className="title">card number</h3>
+                        <input type="text" placeholder="1234 5678 9123 0000" />
+                    </div>
+
+                    <div className="form-group">
+                        
+                        <div className="form-control">
+                            <h3 className="title">exp. date (mm/yy)</h3>
+                            <div className="form-date">
+                                <input type="text" id='month' placeholder="MM" />
+                                <input type="text" id='year' placeholder="YY" />
+                            </div>                            
+                        </div>
+
+                        
+                        <div className="form-control">
+                            <h3 className="title">cvc</h3>
+                            <input type="text" placeholder="e.g. 123" />
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </>
+        
     )
 }
